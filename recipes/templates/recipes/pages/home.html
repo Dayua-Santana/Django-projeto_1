@@ -2,15 +2,19 @@
 
 <body>
     {% include "recipes/partials/header.html" %}
-    <div class="search-container">
-        <div class="container">
-            <form action="" class='search-form'>
-                <input type="search" class='search-input' name='search'>
-                <button type='submit' class='search-button'><i class="fas fa-search"></i></button>
-            </form>
+    {% include "recipes/partials/search.html" %}
 
+    <main class="content-container">
+        <div class="main-content main-content-list container">
+            <div class="recipe recipe-list-item">
+                <div class="recipe-cover">
+                    <img src="https://corhexa.com/png/1280x720/4a9c5d" alt="">
+                    <h1>oi</h1>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
+
 </body>
 
 </html>
